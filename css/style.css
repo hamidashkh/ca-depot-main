@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+header a{
+    color:black;
+}
+header{
+    background-color: #ffffff;
+    padding: 2rem
+}
+.container{
+    padding: 0 4rem;
+}
+.header-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+#slider nav a{
+    margin-right: 20px
+}
+.header-all .shop a{
+    margin-left: 20px
+}
+.header-all .shop i{
+    margin-left: 20px;
+}
+.header-all .logo a{
+    font-size: 40px;
+}
+.slider{
+    background-color: #f3f3f3;
+    padding: 3rem 3rem 0;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    align-items: center;
+}
+#slider .photo{
+    height: 585px;
+}
+.prods{
+    margin-top: 50px;
+    padding: 0 4rem;
+}
+
+#prods .top{
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 0 ;
+    font-size: 16px;
+}
+#prods .bottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#prods  a{
+    margin-left: 10px;
+    color: grey;
+    transition: 0.1s;
+}
+#prods  a:hover {
+    color: black;
+}
+.box{
+    width: 23%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#prods .photo img{
+    width:100%;
+}
+
+
